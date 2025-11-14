@@ -58,3 +58,18 @@
 - => gán giá trị cho 2 biến riêng biệt trong file `terraform.tfvars`
 - Chạy lại `terraform plan` => nó ko hỏi nữa
 
+## Lab-03: Sử dụng Output để liên kết sub-modules
+- Cách chia modules
+- Sử dụng output làm liên kết giữa 2 module
+- Các lệnh khởi chạy như các lab trước
+- Khi chạy xong xong lệnh `terraform apply`, nó sẽ hiện ra output:
+    ```
+    instance_ip_addr_private = "172.31.66.116"
+    instance_ip_addr_public = "52.206.83.82"
+    private_security_group_id = "sg-058f7199e6421cda9"
+    public_security_group_id = "sg-0a49153947a1cf05e"
+    ```
+
+## Lab-04: Deploy 1 VPC hoàn chỉnh và các resources
+- 
+
